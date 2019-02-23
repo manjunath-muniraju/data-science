@@ -1,0 +1,11 @@
+home for data science is - https://www.kaggle.com
+
+
+DB --- ETL (extract Transform load)----> .csv/json --------understanding/preprocessing (here automation is required, because very day/month new data inflow will be there)---------------> MachineLearning (DeepLearning is sub set of ML)
+
+
+if the data is image/audio/NLP then DL library is required
+
+
+string, tuple, set - immutable
+list, dictinary - mutable
