@@ -9,3 +9,27 @@ if the data is image/audio/NLP then DL library is required
 
 string, tuple, set - immutable
 list, dictinary - mutable
+
+
+----------------------------------------------------------------
+
+3rd March 2019:
+=================
+
+
+money ball - movies gives example of statistcs - 
+21 movies
+
+two ways of doing statistics: (two school of statistics)
+---------------------------
+1. frequentist statistics (we use it mostly - upto 99%)
+2. Bayesian statistics (we use very less - to some simple model)
+
+
+like alarming, buzzing, beeping
+
+
+good book to understand Bayesian - Think Bayes - just go thru first chapter
+
+
+data collection should be 
