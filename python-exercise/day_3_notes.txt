@@ -33,3 +33,79 @@ good book to understand Bayesian - Think Bayes - just go thru first chapter
 
 
 data collection should be 
+
+------
+
+statistics:
+
+why IQE is (q3 -q1) -- > because to q1 and q4 might contain outliers, so variance will be high, so it is not good idea to take (q4 - q1).
+
+
+to calculate q1 and q3:
+------------------------
+
+q1 = 1/4 (n+1)th term
+q3 = 3/4 (n+1)th term
+
+ex: D -> n elements --> 21 elements
+q1 = 1/4(21+1) = 5.5
+q3 = 3/4 (21+1) = 16.5 
+
+so, 5.5 + 16.5 = 21, hence proved.
+
+
+do same for 22 elements (Ans: 23/4 = 5.75)
+
+
+================================
+
+ex: 2:
+
+2,7,11,8,9,13,8,10,11,16,17,15
+n = 12
+
+order the series - 2,7,8,8,9,10,11,11,13,15,16,17
+
+q1 = 8 (3.25), so 3.25 is not whole number, so in above ordered sample we need to take average of 3rd and 4th value... i.e. (8+8)/2 = 8.
+q2= 10.5 -- (10+11)/2 = 10.5, 6th and 7th value (10 and 11 respectively)
+q3=14
+q4=17
+iQR = 6 (i.e: q3-q1)
+
+
+N is for population
+n is for sample
+
+variance formula for population is var = (xi - x-bar)/N - this is used for discripitive stats
+variance formula for samples is var = (xi - x-bar)/(n-1) - this used for inferencial stats
+
+here, (xi- x-bar) is SS, SS is Sum of Squre
+
+======
+
+Box plot - to find if any outliers are there in upper wisker or lower wisker (uppper wisker is delta b\w q3 and q4, lower is delta b/w q0 and q1)
+exercise:
+
+Range= 199, 201, 236, 269, 271, 278, 283,...... (see in ppt)
+
+
+Mean = 270.27
+q0 = 199
+q1 = 236
+q2 = 278
+q3 = 301
+q4 = 341
+IQR = 65
+
+Upper wisker formula = q3 + 1.5 * (IQR) ==> 301 + 1.5*65 = 398
+lower wisker formula = q1 - 1.5 * (IQR) ==> 236 - 1.5 * 65 = 138.5
+
+Note: ** IMPT **
+so, above the upper limit of upper wisker or below the lower limit of lower wisker.
+
+
+
+in box plot, x-xies has to be categorical data and y-axies is to be numrical data.
+
+
+
